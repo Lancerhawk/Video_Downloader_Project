@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.temp/
+.vite/
+.next/
+out/
+coverage/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# OS / IDE / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Environment
+.env
+.env.* 
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+jest-cache/
+jest-config.json
+coverage/
+test-output/
+
+# Git
+*.orig
+
+# Misc
+*.local
+*.tgz
+*.zip
+*.tar.gz
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Python (if used in mixed projects)
+__pycache__/
+*.py[cod]
+
+# Optional: remove sensitive files or secrets
+secrets.json
+firebase-debug.log
+firebase-debug.*.log
